@@ -40,3 +40,19 @@ A comprehensive blood donation application that connects donors with recipients 
 - **Google Gemini API Key** ([Get here](https://makersuite.google.com/app/apikey))
 - **Git** (optional)
 
+
+
+mkdir helping-hands
+cd helping-hands
+
+npm init -y 
+
+npm install express cors @google/generative-ai
+npm install --save-dev nodemon
+
+npm run dev  
+
+npm init -y
+npm install express cors mongoose @google/generative-ai dotenv
+
+node backend-server.js
